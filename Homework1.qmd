@@ -1,0 +1,50 @@
+---
+title: "Data Science HW1"
+format: html
+editor: visual
+---
+
+## Question 1: What do you think being a data scientist is about?
+
+I believe a data scientist is an individual that can effectively sort, manage, and manipulate data. I believe this to be especially true of larger and more complex datasets.Thus, data scientists are very applied.
+
+## Question 2: What differences/similarities do you see between data scientists and statisticians?
+
+I think a difference between the two is that data scientists may not have the theoretical or conceptual underpinnings that a statistician does. A similarity is that both understand how to manage and analyze data.
+
+## Question 3: How do you view yourself in relation to these two areas?
+
+I am an ecologist at App State so all of my projects generate data. I would not consider myself a statistician but because I do work with data, I would like to become a data scientist. I hope to improve my applied statistics skills and get more organized with the data that I collect for analysis.
+
+## Running Code
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+the above code has stored the petal width data in a file called "y"
+
+```{r}
+class(iris)
+```
+
+the above code has identified the class of the iris dataset in R.
+
+```{r}
+typeof(iris)
+```
+
+the above code has identified the type of data in the iris dataset in R.
+
+```{r}
+str(iris)
+```
+
+the above code has identified the structure of the iris dataset in R.
+
+```{r, echo=FALSE}
+plot(y)
+
+```
+
+the above code has plotted the "y" file that was generated in the 1st line of code.
