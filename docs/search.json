@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "Homework1.html",
+    "href": "Homework1.html",
+    "title": "Data Science HW1",
+    "section": "",
+    "text": "I believe a data scientist is an individual that can effectively sort, manage, and manipulate data. I believe this to be especially true of larger and more complex datasets.Thus, data scientists are very applied."
+  },
+  {
+    "objectID": "Homework1.html#question-1-what-do-you-think-being-a-data-scientist-is-about",
+    "href": "Homework1.html#question-1-what-do-you-think-being-a-data-scientist-is-about",
+    "title": "Data Science HW1",
+    "section": "",
+    "text": "I believe a data scientist is an individual that can effectively sort, manage, and manipulate data. I believe this to be especially true of larger and more complex datasets.Thus, data scientists are very applied."
+  },
+  {
+    "objectID": "Homework1.html#question-2-what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "Homework1.html#question-2-what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "Data Science HW1",
+    "section": "Question 2: What differences/similarities do you see between data scientists and statisticians?",
+    "text": "Question 2: What differences/similarities do you see between data scientists and statisticians?\nI think a difference between the two is that data scientists may not have the theoretical or conceptual underpinnings that a statistician does. A similarity is that both understand how to manage and analyze data."
+  },
+  {
+    "objectID": "Homework1.html#question-3-how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "Homework1.html#question-3-how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "Data Science HW1",
+    "section": "Question 3: How do you view yourself in relation to these two areas?",
+    "text": "Question 3: How do you view yourself in relation to these two areas?\nI am an ecologist at App State so all of my projects generate data. I would not consider myself a statistician but because I do work with data, I would like to become a data scientist. I hope to improve my applied statistics skills and get more organized with the data that I collect for analysis."
+  },
+  {
+    "objectID": "Homework1.html#running-code",
+    "href": "Homework1.html#running-code",
+    "title": "Data Science HW1",
+    "section": "Running Code",
+    "text": "Running Code\n\ny &lt;- density(iris$Petal.Width)\n\nthe above code has stored the petal width data in a file called “y”\n\nclass(iris)\n\n[1] \"data.frame\"\n\n\nthe above code has identified the class of the iris dataset in R.\n\ntypeof(iris)\n\n[1] \"list\"\n\n\nthe above code has identified the type of data in the iris dataset in R.\n\nstr(iris)\n\n'data.frame':   150 obs. of  5 variables:\n $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...\n $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...\n $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...\n $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...\n $ Species     : Factor w/ 3 levels \"setosa\",\"versicolor\",..: 1 1 1 1 1 1 1 1 1 1 ...\n\n\nthe above code has identified the structure of the iris dataset in R.\n\n\n\n\n\n\n\n\n\nthe above code has plotted the “y” file that was generated in the 1st line of code."
+  }
+]
